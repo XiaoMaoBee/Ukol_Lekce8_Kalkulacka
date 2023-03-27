@@ -1,0 +1,12 @@
+package org.example;
+
+import com.engeto.calculator.Calculator;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+
+        Calculator calculator = new Calculator();
+        calculator.squareRoot(-15);
+    }
+}
