@@ -15,6 +15,9 @@ public class Calculator {
     }
 
     public double divide(int a, int b) {
+        if (b == 0) {
+            throw new ArithmeticException("Division by 0 not allowed");
+        }
         return (double)a / b;
     }
     public double squareRoot(int a) {
